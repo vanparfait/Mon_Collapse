@@ -1,0 +1,24 @@
+.carousel {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 900px;
+}
+.carousel-inner {
+  white-space: nowrap;
+}
+.carousel_arrow_left {
+  position: absolute;
+  z-index: 1;
+  left: 25px;
+  bottom: 180px;
+}
+.carousel_arrow_right {
+  position: absolute;
+  z-index: 1;
+  right: 25px;
+  top: 150px;
+}
+.slideCount {
+  margin-left: 50%;
+}
